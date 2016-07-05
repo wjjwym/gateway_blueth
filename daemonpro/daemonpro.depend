@@ -1,0 +1,97 @@
+# depslib dependency file v1.0
+1466581303 source:/home/pi/project/daemonpro/desEncryption.c
+	"desEncryption.h"
+
+1466581303 /home/pi/project/daemonpro/desEncryption.h
+	"stdlib.h"
+
+1467701527 source:/home/pi/project/daemonpro/encryption.c
+	"encryption.h"
+
+1467698922 /home/pi/project/daemonpro/encryption.h
+	<stdio.h>
+	<stdlib.h>
+	<sys/types.h>
+	<fcntl.h>
+	<string.h>
+	<unistd.h>
+	"desEncryption.h"
+
+1467700915 source:/home/pi/project/daemonpro/main.c
+	<stdio.h>
+	<stdlib.h>
+	"encryption.h"
+	"msgprocess.h"
+	"pthread.h"
+	"watchdog_pro.h"
+
+1466581303 /home/pi/project/daemonpro/msgprocess.h
+	<stdio.h>
+	<stdlib.h>
+	<sys/msg.h>
+	<errno.h>
+	<string.h>
+	<unistd.h>
+	"watchdog_pro.h"
+
+1467700034 source:/home/pi/project/daemonpro/msgprocess.c
+	"msgprocess.h"
+
+1467701638 /home/pi/project/daemonpro/watchdog_pro.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<error.h>
+	<sys/wait.h>
+
+1467698833 source:/home/pi/project/daemonpro/watchdog_pro.c
+	"watchdog_pro.h"
+
+1466060171 source:/home/wangjj/project/daemonpro/desEncryption.c
+	"desEncryption.h"
+
+1466060171 /home/wangjj/project/daemonpro/desEncryption.h
+	"stdlib.h"
+
+1466060171 source:/home/wangjj/project/daemonpro/encryption.c
+	"encryption.h"
+
+1466340462 /home/wangjj/project/daemonpro/encryption.h
+	<stdio.h>
+	<stdlib.h>
+	<sys/types.h>
+	<fcntl.h>
+	<string.h>
+	<unistd.h>
+	"desEncryption.h"
+
+1466060171 source:/home/wangjj/project/daemonpro/main.c
+	<stdio.h>
+	<stdlib.h>
+	"encryption.h"
+	"msgprocess.h"
+	"pthread.h"
+	"watchdog_pro.h"
+
+1466060171 /home/wangjj/project/daemonpro/msgprocess.h
+	<stdio.h>
+	<stdlib.h>
+	<sys/msg.h>
+	<errno.h>
+	<string.h>
+	<unistd.h>
+	"watchdog_pro.h"
+
+1466060171 /home/wangjj/project/daemonpro/watchdog_pro.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<error.h>
+	<sys/wait.h>
+
+1466060171 source:/home/wangjj/project/daemonpro/msgprocess.c
+	"msgprocess.h"
+
+1466060171 source:/home/wangjj/project/daemonpro/watchdog_pro.c
+	"watchdog_pro.h"
+
