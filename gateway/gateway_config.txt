@@ -1,0 +1,4 @@
+ServerIP=121.42.196.94#//服务器IP地址
+ServerPort=10101#//服务器端口号
+InterruptDelay=150#//中断延迟时间
+DownloadAddr=http://121.42.196.94:8080/#//下载文件打地址
